@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT PURO</title>
+</head>
+<body>    
+        <div id="Container_01"></div>
+        
+        <script type="text/javascript">
+
+         const container= document.getElementById('Container_01')
+         const header = document.createElement('h1')
+         const headerContent = document.createTextNode(
+         'OLÁ MUNDO... ESTOU APRENDENDO JS PURO'         
+         )
+         header.appendChild(headerContent);
+         Container_01.appendChild(header)
+
+        </script>
+
+
+        <div id="Box_01"></div>
+
+        <script type="text/javascript">
+
+          const box = document.getElementById('Box_01') 
+          const section = document.createElement('p')
+          const sectionContent = document.createTextNode(
+         'Sinto muito.. pórem todos terão que sair do plantão!!!Mais amanhã teremos novidades'
+         )
+         
+         section.appendChild(sectionContent);
+         Box_01.appendChild(section)
+        
+        </script>
+    
+</body>
+</html>

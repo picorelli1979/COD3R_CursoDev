@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA TRANSFORMAÇÃO DEV</title>
+</head>
+<body>
+
+     <div id="App"></div>
+
+     <script type="text/javascript">
+         
+        // AQUI ESTOU CRIANDO UMA CONSTANTE APP SELECIONANDO PELO ID
+        const App = document.getElementById('App');
+        
+        // AQUI EU VOU CRIAR UM H1 ELEMENTO
+        const header = document.createElement('h1');
+
+        // AQUI VOU CRIAR O TEXTO DO ELEMENTO H1
+        const headerContent = document.createTextNode(
+          'LOJA_BU$INE$$_ON_LINE', 
+        );
+
+        // APPEND O TEXTO DENTRO DO H1
+        header.appendChild(headerContent);
+
+        // COLOCAR O H1 ELEMENTO DENTRO DA DIV 
+        App.appendChild(header)
+
+     </script>
+    
+</body>
+</html>
